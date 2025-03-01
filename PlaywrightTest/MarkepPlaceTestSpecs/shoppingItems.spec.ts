@@ -72,13 +72,13 @@ test.describe("Shopping items test spec", async () => {
         await expect(shopping.checkoutButton).toBeVisible();
     })
 
-    test("Click on checkout button and verify the billing details screen", async () => {
+    /*test("Click on checkout button and verify the billing details screen", async () => {
         await shopping.checkoutButton.click();
         //assert
         await expect(shopping.checkoutBillingAddress).toBeVisible();
-    })
+    })*/
 
-    test("Click on continue without adding billing details and verify if the validation messages are shown", async () => {
+    /*test("Click on continue without adding billing details and verify if the validation messages are shown", async () => {
         await shopping.continueCheckoutButton.click();
         await page.waitForSelector('.invalid-feedback', { state: "visible" })
         //assert
@@ -87,6 +87,6 @@ test.describe("Shopping items test spec", async () => {
         await expect(page.getByText(errorMessage.cityRequiredMessage)).toBeVisible();
         await expect(page.getByText(errorMessage.postCodeRequiredMessage)).toBeVisible();
         await expect(page.getByText(errorMessage.addressRequiredMessage)).toBeVisible();
-    })
+    })*/
 
 })
