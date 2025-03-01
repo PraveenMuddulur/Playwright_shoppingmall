@@ -1,6 +1,6 @@
 import { chromium, Locator, Page } from "@playwright/test";
 import { registerUserPageObject } from "../MarketPlacePageObjects/registerUser.page";
-var registerUser = require('../../../Playwright_ShoppingSite-main/PlaywrightTest/MarketPlaceDatas/RegisterUserData.json');
+var registerUser = require('../../../Playwright_shoppingmall/PlaywrightTest/MarketPlaceDatas/RegisterUserData.json');
 
 export class loginUserHelper {
     readonly page: Page;

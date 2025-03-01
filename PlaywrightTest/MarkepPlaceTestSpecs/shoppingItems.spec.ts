@@ -1,9 +1,9 @@
 import { test, expect, chromium, Page } from "@playwright/test";
 import { loginUserHelper } from "../MarketPlaceLoginHelper/loginUserHelper.page";
 import { shoppingItems } from "../MarketPlacePageObjects/shoppingItems.page";
-var registerUser = require('../../../Playwright_ShoppingSite-main/PlaywrightTest/MarketPlaceDatas/RegisterUserData.json');
-var errorMessage = require('../../../Playwright_ShoppingSite-main/PlaywrightTest/MarketPlaceDatas/RegisterUserErrorMessages.json');
-var itemsMenu = require('../../../Playwright_ShoppingSite-main/PlaywrightTest/MarketPlaceDatas/ItemsMenu.json');
+var registerUser = require('../../../Playwright_shoppingmall/PlaywrightTest/MarketPlaceDatas/RegisterUserData.json');
+var errorMessage = require('../../../Playwright_shoppingmall/PlaywrightTest/MarketPlaceDatas/RegisterUserErrorMessages.json');
+var itemsMenu = require('../../../Playwright_shoppingmall/PlaywrightTest/MarketPlaceDatas/ItemsMenu.json');
 
 test.describe("Shopping items test spec", async () => {
     test.describe.configure({ mode: "serial" });

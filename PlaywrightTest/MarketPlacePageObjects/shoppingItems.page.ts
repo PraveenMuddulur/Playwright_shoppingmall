@@ -1,5 +1,5 @@
 import { test, expect, chromium, Page, Locator } from "@playwright/test"
-var itemsMenu = require('../../../Playwright_ShoppingSite-main/PlaywrightTest/MarketPlaceDatas/ItemsMenu.json');
+var itemsMenu = require('../../../Playwright_shoppingmall/PlaywrightTest/MarketPlaceDatas/ItemsMenu.json');
 
 export class shoppingItems {
     readonly page: Page;
