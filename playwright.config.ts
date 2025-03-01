@@ -29,7 +29,7 @@ export default defineConfig({
   reporter: [['html', { outputFolder: '../Playwright Project/my-report' }]],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    headless : false,
+    headless : true,
     screenshot : 'on',
     viewport : null,
     launchOptions :{
